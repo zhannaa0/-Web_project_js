@@ -1,0 +1,89 @@
+header {
+    background: linear-gradient(rgb(0,0,0,0.9), rgb(0,0,0,0.6), rgb(0,0,0,0.3), rgb(0,0,0,0)), url(images/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 750px;
+}
+
+.stars img{
+  width: 20px;
+  height: 20px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+.carousel-control-prev,
+    .carousel-control-next {
+        background-color: grey;
+        color: white;
+
+        
+    }
+
+
+.btn-white .navbar-toggler-icon {
+    color: white;
+  }
+
+.custom-toggler-icon {
+    background-color: white;
+  }
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.877);
+  }
+
+
+
+  .time-count{
+    background: rgba(171, 167, 167, 0.833);
+    box-shadow: 4px 8px 40px rgba(8,24,111,0.2);
+    border-radius: 30px;
+    width: 450px;
+    height: 180px;
+    padding: 10px;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .time-count_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  .time-count_content{
+    display: flex;
+    justify-content: center;
+  
+  }
+
+
+  .time-count_separator{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #464855;
+    margin: 0 10px;
+  }
+
+  .time-count_text{
+    font-size: 20px;
+    color: #64687f;
+    
+  }
+
+  .time-count_item{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #464855;
+    margin-top: 5px;
+  
+  }
